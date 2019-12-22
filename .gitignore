@@ -4,17 +4,3 @@
 out
 gen
 target
-.gitignore
-.idea/vcs.xml
-.idea/compiler.xml
-.idea/dictionaries/
-.idea/encodings.xml
-.idea/inspectionProfiles/
-.idea/libraries/
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
-common-module.iml
-pom.xml
-src/
-target/
