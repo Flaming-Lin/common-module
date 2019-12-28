@@ -11,11 +11,11 @@ import java.util.List;
  */
 public class ChunkUtil {
 
-    // 默认列表拆分大小
+    /** 默认列表拆分大小 */
     private static final Integer DEFAULT_LIST_SIZE_FOR_SPLIT = 50;
 
     /**
-     * 将大的列表拆分为小的列表的列表（拆分大小为50）
+     * 将大的列表拆分为小的列表的列表(拆分大小为50)
      *
      * @param list 大的列表
      * @param <T>  列表元素类型
@@ -26,7 +26,7 @@ public class ChunkUtil {
     }
 
     /**
-     * 将大的列表拆分为小的列表的列表（拆分大小为50）
+     * 将大的列表拆分为小的列表的列表(拆分大小为50)
      *
      * @param list      大的列表
      * @param chunkSize 拆分成列表的容量大小
