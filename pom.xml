@@ -10,7 +10,7 @@
 
     <groupId>com.flaming</groupId>
     <artifactId>common-module</artifactId>
-    <version>1.0.0-RELEASE</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
