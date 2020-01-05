@@ -1,4 +1,4 @@
-package com.flaming.util;
+package com.flaming.common.util;
 
 import com.google.common.collect.Lists;
 
