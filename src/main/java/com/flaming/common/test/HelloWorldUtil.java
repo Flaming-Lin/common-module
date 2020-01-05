@@ -1,4 +1,4 @@
-package com.flaming.test;
+package com.flaming.common.test;
 
 /**
  * @Author: Flaming

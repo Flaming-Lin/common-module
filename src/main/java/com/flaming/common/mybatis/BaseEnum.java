@@ -1,4 +1,4 @@
-package com.flaming.mybatis;
+package com.flaming.common.mybatis;
 
 /**
  * 用于 Mybatis 的枚举基类，使用

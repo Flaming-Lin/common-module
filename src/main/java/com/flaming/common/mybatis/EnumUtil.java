@@ -1,4 +1,4 @@
-package com.flaming.mybatis;
+package com.flaming.common.mybatis;
 
 /**
  * @Author: Flaming

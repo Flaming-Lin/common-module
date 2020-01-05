@@ -1,4 +1,4 @@
-package com.flaming.mybatis;
+package com.flaming.common.mybatis;
 
 import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;

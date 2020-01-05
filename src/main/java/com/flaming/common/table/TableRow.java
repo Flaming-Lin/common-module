@@ -1,4 +1,4 @@
-package com.flaming.table;
+package com.flaming.common.table;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
