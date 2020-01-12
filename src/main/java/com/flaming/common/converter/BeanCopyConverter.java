@@ -21,8 +21,7 @@ public class BeanCopyConverter<T> implements IBeanConverter<Object, T> {
             BeanUtils.copyProperties(o, newObj);
             return newObj;
         } catch (InstantiationException | IllegalAccessException e) {
-            e.printStackTrace();
-            return null;
+            throw new RuntimeException(e);
         }
     }
 
