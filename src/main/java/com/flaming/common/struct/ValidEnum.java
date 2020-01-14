@@ -1,5 +1,6 @@
 package com.flaming.common.struct;
 
+import com.flaming.common.mybatis.BaseEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -9,7 +10,7 @@ import lombok.Getter;
  */
 @Getter
 @AllArgsConstructor
-public enum ValidEnum {
+public enum ValidEnum implements BaseEnum {
 
     /**
      * 无效
