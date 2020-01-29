@@ -50,10 +50,10 @@ public class CommonVerifier {
 
         for (Object o : objects) {
             if (null == o) {
-                return false;
+                return true;
             }
         }
-        return true;
+        return false;
     }
 
 }
