@@ -40,6 +40,10 @@ public class PageUtil {
         if (null == paging || null == paging.getLimit() || null == paging.getOffset()) {
             throw new IllegalArgumentException("分页参数为空！");
         }
+
+        if (paging.getLimit() < 0 || paging.getOffset() < 0) {
+            throw new IllegalArgumentException(String.format("分页参数不合法！limit: %s, offset: %s", paging.getLimit(), paging.getOffset()));
+        }
     }
 
 }
